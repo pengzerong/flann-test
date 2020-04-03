@@ -1,0 +1,20 @@
+﻿  flann-test.cpp
+d:\documents\visual studio 2017\projects\flann-test\include\flann\util\saving.h(111): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+d:\documents\visual studio 2017\projects\flann-test\include\flann\util\allocator.h(199): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+d:\documents\visual studio 2017\projects\flann-test\include\flann\util\random.h(82): warning C4244: “参数”: 从“ptrdiff_t”转换到“int”，可能丢失数据
+d:\documents\visual studio 2017\projects\flann-test\include\flann\algorithms\dist.h(522): error C3861: “pop_t”: 找不到标识符
+  d:\documents\visual studio 2017\projects\flann-test\include\flann\algorithms\dist.h(522): note: 此诊断出现在编译器生成的函数“flann::HammingPopcnt<T>::ResultType flann::HammingPopcnt<T>::operator ()(Iterator1,Iterator2,size_t,flann::HammingPopcnt<T>::ResultType) const”中
+  d:\documents\visual studio 2017\projects\flann-test\include\flann\algorithms\dist.h(526): note: 参见对正在编译的 类 模板 实例化 "flann::HammingPopcnt<T>" 的引用
+d:\documents\visual studio 2017\projects\flann-test\include\flann\util\lsh_table.h(352): warning C4334: “<<”: 32 位移位的结果被隐式转换为 64 位(是否希望进行 64 位移位?)
+  d:\documents\visual studio 2017\projects\flann-test\include\flann\util\lsh_table.h(352): note: 参见对正在编译的 类 模板 实例化 "flann::lsh::LshTable<ElementType>" 的引用
+d:\documents\visual studio 2017\projects\flann-test\include\flann\util\lsh_table.h(446): warning C4267: “参数”: 从“size_t”转换到“_Ty”，可能丢失数据
+          with
+          [
+              _Ty=flann::lsh::FeatureIndex
+          ]
+d:\documents\visual studio 2017\projects\flann-test\include\flann\util\lsh_table.h(454): warning C4267: “参数”: 从“size_t”转换到“_Ty”，可能丢失数据
+          with
+          [
+              _Ty=flann::lsh::FeatureIndex
+          ]
+d:\documents\visual studio 2017\projects\flann-test\include\flann\io\hdf5.h(33): fatal error C1083: 无法打开包括文件: “hdf5.h”: No such file or directory
